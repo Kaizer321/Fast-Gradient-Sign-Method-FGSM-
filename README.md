@@ -1,5 +1,4 @@
-# DevNeuron Software Engineer AI Assessment
-
+# Fast Gradient Sign Method (FGSM)
 This project demonstrates an Adversarial Attack (FGSM) on a simple MNIST CNN model using **FastAPI** (Backend) and **Next.js** (Frontend).
 
 ## Project Structure
@@ -110,3 +109,4 @@ Where:
 
 - **Epsilon Impact**: As epsilon increases (e.g., from 0.05 to 0.3), the noise becomes more visible to the human eye, and the model's confidence in the correct class drops significantly.
 - **Robustness**: Simple CNNs trained on clean data are highly susceptible to FGSM. Even effectively "invisible" noise ($\epsilon = 0.05$) can flip predictions.
+
